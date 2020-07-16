@@ -107,9 +107,6 @@ export default function ProfilePage(props) {
                   <div className={classes.name}>
                     <h3 className={classes.title}>Khalil TOUIL</h3>
                     <h6>Front-End Developer</h6>
-                    <Button justIcon link className={classes.margin5}>
-                      <i className={"fab fa-twitter"} />
-                    </Button>
                     <Button
                       href="https://www.linkedin.com/in/khalil-touil-a10a3514a/"
                       justIcon
@@ -214,7 +211,7 @@ export default function ProfilePage(props) {
                                   >
                                     <Close className={classes.modalClose} />
                                   </IconButton>
-                                  <h4 className={classes.modalTitle}>Android Developer</h4>
+                                  <h4 className={classes.modalTitle}>Web Developer</h4>
                                 </DialogTitle>
                                 <DialogContent
                                   id="classic-modal-slide-description"
@@ -228,7 +225,7 @@ export default function ProfilePage(props) {
                                 </DialogContent>
                                 <DialogActions className={classes.modalFooter}>
 
-                                  <Button color="github">
+                                  <Button color="github" target="_blank" href="https://github.com/khalil117/khalil-touil-resume">
                                     <i className={classes.socialIcons + " fab fa-github"} /> Link To GitHub
                                     </Button>
 
@@ -296,8 +293,8 @@ export default function ProfilePage(props) {
                                 </DialogContent>
                                 <DialogActions className={classes.modalFooter}>
 
-                                  <Button color="github">
-                                    <i className={classes.socialIcons + " fab fa-github"} /> bla
+                                  <Button color="github" href="https://github.com/khalil117/final" target="_blank">
+                                    <i className={classes.socialIcons + " fab fa-github"} /> Github Repository
                                     </Button>
 
 
@@ -369,11 +366,6 @@ export default function ProfilePage(props) {
                                 </DialogContent>
                                 <DialogActions className={classes.modalFooter}>
 
-                                  <Button color="github">
-                                    <i className={classes.socialIcons + " fab fa-github"} /> bla
-                                    </Button>
-
-
                                   <Button
                                     onClick={() => setClassicModal2(false)}
                                     color="danger"
@@ -440,12 +432,6 @@ export default function ProfilePage(props) {
                                   </p>
                                 </DialogContent>
                                 <DialogActions className={classes.modalFooter}>
-
-                                  <Button color="github">
-                                    <i className={classes.socialIcons + " fab fa-github"} /> Link To GitHub
-                                    </Button>
-
-
                                   <Button
                                     onClick={() => setClassicModal3(false)}
                                     color="danger"

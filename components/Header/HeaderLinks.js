@@ -31,14 +31,14 @@ export default function HeaderLinks(props) {
       </ListItem>
 
       <ListItem className={classes.listItem}>
-        <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
+        {/* <Button
+          href="https://www.linkedin.com/in/khalil-touil-a10a3514a/"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
           <CloudDownload className={classes.icons} /> Download
-        </Button>
+        </Button> */}
       </ListItem>
       <ListItem className={classes.listItem}>
         {/* <Tooltip title="Delete">
