@@ -176,7 +176,7 @@ export default function ProfilePage(props) {
 
                           <GridItem xs={12} sm={12} md={12}>
                             <div className={classes.title}>
-                              <h2>Web Developer Freelancer </h2>
+                              <h2>Fullstack Web Developer </h2>
                               <Button
                                 color="primary"
 
@@ -211,16 +211,15 @@ export default function ProfilePage(props) {
                                   >
                                     <Close className={classes.modalClose} />
                                   </IconButton>
-                                  <h4 className={classes.modalTitle}>Web Developer</h4>
+                                  <h4 className={classes.modalTitle}>Web Developer @ Exsol Systems</h4>
                                 </DialogTitle>
                                 <DialogContent
                                   id="classic-modal-slide-description"
                                   className={classes.modalBody}
                                 >
                                   <p>
-                                  Frontend Developer, Frontend Entwickler, Frontend Engineer, 
-                                  Web Developer, Javascript Engineer, TypeScript, React, 
-                                  Redux, JavaScript, CSS3, SASS, HTML5
+                                  Design and implement back-end applications and building  RESTful APIs using Node.js, 
+                                  front-end applications using React and Redux.  
                                   </p>
                                 </DialogContent>
                                 <DialogActions className={classes.modalFooter}>
